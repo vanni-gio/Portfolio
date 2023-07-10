@@ -4,7 +4,19 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="div-center">
+    
+    <div class="row">
+
+        @for(int i=0; i < 100; i++)
+        {
+            <div class="item col-2">
+                <p id="Pname" class="item-name">Item @i</p> 
+                <p id="Pdesc" class="item-name">piaspasidpi asdaips dapsd aspdiiadakd asdoadia </p>
+                <p id="Prate" class="item-name">5</p>
+                <p id="Pprice" class="item-name">R$ 4.99</p>
+            </div>
+        }
+
+    </div>
 </div>
